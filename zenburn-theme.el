@@ -786,6 +786,17 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(rainbow-delimiters-depth-10-face ((t (:foreground ,zenburn-orange))))
    `(rainbow-delimiters-depth-11-face ((t (:foreground ,zenburn-green))))
    `(rainbow-delimiters-depth-12-face ((t (:foreground ,zenburn-blue-5))))
+;;;;; rainbow-blocks
+     `(rainbow-blocks-depth-1-face ((,class (:foreground ,zenburn-fg))))
+     `(rainbow-blocks-depth-2-face ((,class (:foreground ,zenburn-green+4))))
+     `(rainbow-blocks-depth-3-face ((,class (:foreground ,zenburn-yellow-2))))
+     `(rainbow-blocks-depth-4-face ((,class (:foreground ,zenburn-cyan))))
+     `(rainbow-blocks-depth-5-face ((,class (:foreground ,zenburn-green+2))))
+     `(rainbow-blocks-depth-6-face ((,class (:foreground ,zenburn-blue+1))))
+     `(rainbow-blocks-depth-7-face ((,class (:foreground ,zenburn-yellow-1))))
+     `(rainbow-blocks-depth-8-face ((,class (:foreground ,zenburn-green+1))))
+     `(rainbow-blocks-depth-9-face ((,class (:foreground ,zenburn-blue-2))))
+     `(rainbow-blocks-unmatched-face ((,class (:foreground ,zenburn-red-2))))
 ;;;;; rcirc
    `(rcirc-my-nick ((t (:foreground ,zenburn-blue))))
    `(rcirc-other-nick ((t (:foreground ,zenburn-orange))))
